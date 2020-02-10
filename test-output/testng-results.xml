@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cashify" duration-ms="13942" started-at="2020-02-09T18:21:36Z" finished-at="2020-02-09T18:21:50Z">
+    <groups>
+    </groups>
+    <test name="Checkout" duration-ms="13942" started-at="2020-02-09T18:21:36Z" finished-at="2020-02-09T18:21:50Z">
+      <class name="com.cashify.qa.testcases.CheckoutPageTest">
+        <test-method status="FAIL" signature="allpricesTest()[pri:0, instance:com.cashify.qa.testcases.CheckoutPageTest@3532ec19]" name="allpricesTest" duration-ms="13876" started-at="2020-02-09T18:21:36Z" finished-at="2020-02-09T18:21:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Total Cart Price is not same after Cashify Promocode expected [22.5] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Total Cart Price is not same after Cashify Promocode expected [22.5] but found [null]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at com.cashify.qa.pages.CheckoutPage.applyPromocode(CheckoutPage.java:175)
+at com.cashify.qa.testcases.CheckoutPageTest.allpricesTest(CheckoutPageTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allpricesTest -->
+      </class> <!-- com.cashify.qa.testcases.CheckoutPageTest -->
+    </test> <!-- Checkout -->
+  </suite> <!-- Cashify -->
+</testng-results>

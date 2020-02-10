@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cashify]">
+  <test thread-count="5" name="Checkout(failed)" parallel="methods">
+    <classes>
+      <class name="com.cashify.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="allpricesTest"/>
+        </methods>
+      </class> <!-- com.cashify.qa.testcases.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Checkout(failed) -->
+</suite> <!-- Failed suite [Cashify] -->
